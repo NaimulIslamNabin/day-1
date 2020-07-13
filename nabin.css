@@ -1,0 +1,47 @@
+body{
+    background: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.container{
+    width: 650px;
+    background: #3A5795;
+    margin: 10% auto;
+}
+.signup-form{
+    color: white;
+    font-family: tahoma;
+    padding: 25px;
+}
+.signup-form h1{
+    text-align: center;
+    margin: 30px 0;
+}
+img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+input[type='text'],
+input[type='password']{
+    width: 95%;
+    display: block;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 1px solid #3A5795;
+    border-radius: 5px;
+}
+input[type='submit']{
+    margin:20px auto;
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.signup-form a{
+    color: white;
+    font-size: 16px;
+}
